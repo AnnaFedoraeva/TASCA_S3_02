@@ -1,10 +1,8 @@
 package observer;
 
-import java.util.List;
 
 public class Agencia implements Observador {
 
-	private String evento;
 
 	public void update(String evento) {
 		if (evento.equalsIgnoreCase("baja")) {
